@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1366</width>
+      <height>766</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>171</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>838</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action_20"/>
+    <addaction name="action_18"/>
+    <addaction name="action_6"/>
+    <addaction name="action_19"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Вставити</string>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>false</bool>
+    </property>
+    <addaction name="actionNext"/>
+    <addaction name="action_8"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="action_5"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Редагувати</string>
+    </property>
+    <addaction name="action_10"/>
+    <addaction name="action_11"/>
+    <addaction name="action_12"/>
+    <addaction name="action_13"/>
+    <addaction name="action1_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Допомога</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonFollowStyle</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionNext_2"/>
+   <addaction name="action_9"/>
+   <addaction name="separator"/>
+   <addaction name="action"/>
+   <addaction name="action_4"/>
+   <addaction name="action_7"/>
+   <addaction name="separator"/>
+   <addaction name="action_17"/>
+   <addaction name="action_16"/>
+   <addaction name="action_15"/>
+   <addaction name="action_14"/>
+  </widget>
+  <action name="action">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Action.png</normaloff>../../Users/Алексей/Pictures/Action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок дії</string>
+   </property>
+   <property name="toolTip">
+    <string>Блок дії</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Action.png</normaloff>../../Users/Алексей/Pictures/Action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок дії</string>
+   </property>
+   <property name="toolTip">
+    <string>Блок дії</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+D</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Umova.png</normaloff>../../Users/Алексей/Pictures/Umova.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок умови</string>
+   </property>
+   <property name="toolTip">
+    <string>Блок умови</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actionNext">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Поч.png</normaloff>../../Users/Алексей/Pictures/Поч.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок початку</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Umova.png</normaloff>../../Users/Алексей/Pictures/Umova.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок умови</string>
+   </property>
+   <property name="toolTip">
+    <string>Блок умови</string>
+   </property>
+  </action>
+  <action name="actionNext_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Поч.png</normaloff>../../Users/Алексей/Pictures/Поч.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок початку</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/пара.png</normaloff>../../Users/Алексей/Pictures/пара.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок з даними</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Видалити елемент</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/пара.png</normaloff>../../Users/Алексей/Pictures/пара.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок з даними</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Поч.png</normaloff>../../Users/Алексей/Pictures/Поч.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок кінця</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/Поч.png</normaloff>../../Users/Алексей/Pictures/Поч.png</iconset>
+   </property>
+   <property name="text">
+    <string>Блок кінця</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/курсор.png</normaloff>../../Users/Алексей/Pictures/курсор.png</iconset>
+   </property>
+   <property name="text">
+    <string>Звичайний режим</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/лінія.png</normaloff>../../Users/Алексей/Pictures/лінія.png</iconset>
+   </property>
+   <property name="text">
+    <string>Режим малювання ліній</string>
+   </property>
+  </action>
+  <action name="action1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="actionadd">
+   <property name="text">
+    <string>add</string>
+   </property>
+  </action>
+  <action name="action1_2">
+   <property name="text">
+    <string>Обновити код</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/так.png</normaloff>../../Users/Алексей/Pictures/так.png</iconset>
+   </property>
+   <property name="text">
+    <string>Режи малювання так ліній</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/ні.png</normaloff>../../Users/Алексей/Pictures/ні.png</iconset>
+   </property>
+   <property name="text">
+    <string>Режим малювання ні ліній</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/ні.png</normaloff>../../Users/Алексей/Pictures/ні.png</iconset>
+   </property>
+   <property name="text">
+    <string>Режим малювання ні ліній</string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/так.png</normaloff>../../Users/Алексей/Pictures/так.png</iconset>
+   </property>
+   <property name="text">
+    <string>Режи малювання так ліній</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/лінія.png</normaloff>../../Users/Алексей/Pictures/лінія.png</iconset>
+   </property>
+   <property name="text">
+    <string>Режим малювання ліній</string>
+   </property>
+  </action>
+  <action name="action_17">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/Алексей/Pictures/курсор.png</normaloff>../../Users/Алексей/Pictures/курсор.png</iconset>
+   </property>
+   <property name="text">
+    <string>Звичайний режим</string>
+   </property>
+  </action>
+  <action name="action_18">
+   <property name="text">
+    <string>Зберегти код</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_19">
+   <property name="text">
+    <string>Вихід</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="action_20">
+   <property name="text">
+    <string>Зберегти зображення</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
